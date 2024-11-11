@@ -10,7 +10,9 @@
 
     /* Bundler mode */
     "moduleResolution": "Node",
+    "esModuleInterop": true,
     "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -23,11 +25,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "src/**/*",
-    "./setupTest.ts",
-    "__tests__/**/*.ts"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", "src/**/*"]
 }
