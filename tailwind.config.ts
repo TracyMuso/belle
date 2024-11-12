@@ -31,6 +31,7 @@ export default {
           '300': '#777777',
           '400': '#5c5c5c',
           '500': '#434343',
+          '600': '#363434',
         },
         blue: {
           '100': '#7797b0',
@@ -38,6 +39,10 @@ export default {
           '400': '#44628d',
           '500': '#18346a',
         },
+      },
+      fontFamily: {
+        Cinzel: ['Cinzel', 'serif'],
+        Lato: ['Lato', 'sans-serif'],
       },
     },
   },
