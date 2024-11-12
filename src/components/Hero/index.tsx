@@ -9,8 +9,8 @@ const Hero = () => {
           Your Beauty, Our Passion
         </h4>
         <p className="text-grey-500 lg:text-xl text-center md:text-left lg:leading-8 lg:pt-8 pt-5 lg:pb-16 pb-8 xl:w-2/3">
-          We provide the best beauty services and products that make you feel
-          renewed, radiant, and ready to shine
+          We provide the best beauty services and products in Lusaka. Come over
+          and feel renewed, radiant, and ready to shine
         </p>
         <button className="md:w-2/3 w-full border rounded-xl active:bg-pink-700 text-white px-8 py-3 hover:bg-[#bd2d58] bg-pink-600 font-semibold transition-transform duration-300 active:scale-110">
           Schedule an Appointment!
