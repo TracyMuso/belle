@@ -7,15 +7,10 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "esModuleInterop": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["@types/babel__core"]
   },
-  "include": [
-    "vite.config.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/**/*",
-    "./setupTest.ts",
-    "__tests__/**/*.ts"
-  ]
+  "include": ["vite.config.ts", "**/*.ts", "**/*.tsx", "src/**/*"]
 }

@@ -1,0 +1,17 @@
+/* TEAM */
+                               
+  Your title: Tracy Musongole                          
+  Site: tracymuso.com
+  Email: tracyru305 @ gmail dotcom                             
+  Linkedin: linkedin.com/in/tracy-muso                          
+  Location: Lusaka, Zambia		
+                                
+    /* SITE */
+                                
+    Last update: 2024/11/18
+                           
+    Standards: HTML5, CSS3, ES6
+                           
+  Components: Modernizr, jQuery, etc.
+  Software: React, Tailwind, Typescript, Vercel
+       
