@@ -9,3 +9,8 @@ export interface ServiceCardType {
   text: string;
   title: string;
 }
+
+export interface TestimonialCardType {
+  review: string;
+  client: string;
+}

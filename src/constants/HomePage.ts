@@ -1,4 +1,8 @@
-import type { NavLinks, ServiceCardType } from '../../types';
+import type {
+  NavLinks,
+  ServiceCardType,
+  TestimonialCardType,
+} from '../../types';
 
 export const NavLinkData: NavLinks[] = [
   {
@@ -33,5 +37,20 @@ export const servicesCardData: ServiceCardType[] = [
     url: '#',
     text: 'Be it lash extensions or falsies. We got you covered!',
     title: 'Lashes',
+  },
+];
+
+export const TestimonialData: TestimonialCardType[] = [
+  {
+    review: '',
+    client: '',
+  },
+  {
+    review: '',
+    client: '',
+  },
+  {
+    review: '',
+    client: '',
   },
 ];
