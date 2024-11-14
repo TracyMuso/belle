@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="flex items-center justify-between lg:px-20 sm:px-12 px-8 pt-16 pb-16">
       <div className="flex flex-col items-center md:items-start p-3 xl:w-3/5 md:w-[55%]">
-        <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-grey-600 font-Cinzel">
+        <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-center md:text-left font-bold text-grey-600 font-Cinzel">
           Belle Beauty Parlor
         </h1>
         <h4 className="lg:text-2xl sm:text-xl py-2 font-semibold text-pink-500">
