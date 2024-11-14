@@ -20,7 +20,7 @@ const TestimonialCard = ({ review, client }: TestimonialCardType) => {
   );
 
   return (
-    <div className="px-5 py-6 w-[300px] flex flex-col gap-4 items-center bg-pink-500 hover:bg-pink-400 shadow-md shadow-pink-600 rounded-xl ">
+    <div className="px-5 py-6 w-[300px] h-[230px] flex flex-col gap-4 items-center bg-pink-500 hover:bg-pink-400 shadow-md shadow-pink-600 max-md:shadow-none rounded-xl">
       <div className="flex w-full justify-between">
         <span className="w-6 h-6 transform rotate-180">{CommasIcon}</span>
         <span className="w-6 h-6">{CommasIcon}</span>

@@ -42,15 +42,18 @@ export const servicesCardData: ServiceCardType[] = [
 
 export const TestimonialData: TestimonialCardType[] = [
   {
-    review: '',
-    client: '',
+    review:
+      'I had such a refreshing timee, good conversations and a great mani-pedi. You wont go wrong with Belle',
+    client: 'Jane Doe',
   },
   {
-    review: '',
-    client: '',
+    review:
+      'I have been going to belle fo 2 years now. They never fail to make me fell beautiful.',
+    client: 'Annie Lombe',
   },
   {
-    review: '',
-    client: '',
+    review:
+      'They can pull off any look you want and keep you coming back for more! I love to get my hair done at Belles. They are so professional!',
+    client: 'Miss Kay',
   },
 ];
