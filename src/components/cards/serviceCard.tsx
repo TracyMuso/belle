@@ -6,7 +6,7 @@ const ServiceCard = ({ img, title, text, url }: ServiceCardType) => {
       <img
         src={img}
         alt="girl-in-pink-braids"
-        className="rounded-t-xl w-[300px] h-[280px]"
+        className=" rounded-t-xl w-[300px] h-[250px] lg:h-[280px]"
       />
       <div className="flex flex-col px-2 gap-3 py-2">
         <h4 className="font-semibold">{title}</h4>
