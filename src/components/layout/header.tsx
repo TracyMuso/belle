@@ -4,7 +4,7 @@ import MobileNav from './mobileNav';
 const Header = () => {
   return (
     <div className="flex items-center justify-between pt-7 pb-4 md:px-12 px-7">
-      <span className="cursor-pointer  font-semibold italic text-brown-600">
+      <span className="cursor-pointer font-semibold italic text-brown-600">
         __Belle__
       </span>
       <div className="flex items-center">
