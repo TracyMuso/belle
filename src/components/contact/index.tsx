@@ -9,7 +9,8 @@ const Contact = () => {
       <div className="flex flex-col items-center justify-between mx-auto py-6 w-full space-y-2">
         <p className="text-2xl py-2 text-center">
           Call any of the numbers below to make an appointment or enquiry. We
-          have the most qualified professionals ready to give you
+          have the most qualified professionals ready to give you a
+          well-tailored experience.
         </p>
         <span className="inline-flex gap-2 text-[17px]">
           <PhoneIcon />
