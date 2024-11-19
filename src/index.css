@@ -23,7 +23,8 @@ h5 {
 p,
 span,
 a,
-strong {
+strong,
+li {
   font-family: 'Lato', sans-serif;
 }
 
