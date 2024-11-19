@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Testimonials from './components/testimonials';
 import ImageGallery from './components/gallery';
 import Modal from 'react-modal';
+import Contact from './components/contact';
 
 // Set the app element for accessibility
 Modal.setAppElement('#root');
@@ -18,6 +19,7 @@ function App() {
         <Services />
         <Testimonials />
         <ImageGallery />
+        <Contact />
       </div>
     </>
   );
