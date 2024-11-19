@@ -8,11 +8,7 @@ const ContactForm = () => {
       <p className="md:text-[17px] text-m py-2 w-full font-bold">
         Please fill in all the fields to submit your enquiry
       </p>
-      <input
-        type="hidden"
-        name="access_key"
-        value="ad9428bc-6218-4cd7-a4da-ff0dbc0f204c"
-      />
+      <input type="hidden" name="access_key" value="" />
       <input
         type="hidden"
         name="subject"
