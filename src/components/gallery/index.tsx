@@ -5,10 +5,10 @@ import '../../index.css';
 
 // Example image data
 const images = [
-  'src/assets/images/fulani-braids.jpeg',
-  'src/assets/images/ilash.jpeg',
-  'src/assets/images/manicure.jpeg',
-  'src/assets/images/full-face-beat.jpeg',
+  '/assets/images/fulani-braids.jpeg',
+  '/assets/images/ilash.jpeg',
+  '/assets/images/manicure.jpeg',
+  '/assets/images/full-face-beat.jpeg',
 ];
 
 const ImageGallery = () => {
