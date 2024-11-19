@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
       <div className="w-2/5 hidden md:block">
         <img
-          src="src/assets/girl_in_braids.jpg"
+          src="/assets/girl_in_braids.jpg"
           className="object-contain rounded-xl"
           alt="girl in braids"
         />
