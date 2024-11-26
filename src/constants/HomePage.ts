@@ -75,12 +75,12 @@ export const TestimonialData: TestimonialCardType[] = [
   },
   {
     review:
-      'I have been going to belle fo 2 years now. They never fail to make me fell beautiful.',
-    client: 'Annie Lombe',
+      'They can pull off any look you want and keep you coming back for more! I love to get my hair done at Belles. They are so professional!',
+    client: 'Miss Kay',
   },
   {
     review:
-      'They can pull off any look you want and keep you coming back for more! I love to get my hair done at Belles. They are so professional!',
-    client: 'Miss Kay',
+      'I have been going to belle fo 2 years now. They never fail to make me fell beautiful.',
+    client: 'Annie Lombe',
   },
 ];
