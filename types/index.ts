@@ -8,6 +8,7 @@ export interface ServiceCardType {
   url: string;
   text: string;
   title: string;
+  services: string[];
 }
 
 export interface TestimonialCardType {
