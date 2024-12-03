@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLinkData } from '../../constants/HomePage';
+import SingleLevelDropdownMenu from './DropdownMenu';
 
 const MobileNav = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -60,6 +61,17 @@ const MobileNav = () => {
               {item.text}
             </a>
           ))}
+          <SingleLevelDropdownMenu
+            buttonLabel="Services"
+            items={[
+              { title: 'Hair Styling', url: '/hair-styling' },
+              { title: 'Nails', url: '/nails' },
+              {
+                title: 'Lashes',
+                url: '/lashes',
+              },
+            ]}
+          />
         </div>
       </div>
     </div>

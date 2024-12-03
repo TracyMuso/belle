@@ -9,7 +9,8 @@ const Services = () => {
           Our Services
         </h2>
         <p className="text-center px-6 md:w-full">
-          We do hairbraiding, mani-pedis, lash-extensions and brow henna
+          We do hairstyling and treatments, mani-pedis, lash-extensions and brow
+          henna
         </p>
       </div>
       <div className="flex md:flex-row flex-col gap-12 flex-wrap md:flex-nowrap xl:w-11/12 lg:gap-0 w-full items-center justify-between">
