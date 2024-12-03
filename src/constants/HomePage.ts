@@ -10,10 +10,6 @@ export const NavLinkData: NavLinks[] = [
     text: 'About',
   },
   {
-    url: '#services',
-    text: 'Services',
-  },
-  {
     url: '#contact',
     text: 'Contact',
   },

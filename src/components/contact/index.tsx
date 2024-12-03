@@ -11,7 +11,7 @@ const Contact = () => {
         the most qualified professionals ready to give you a well-tailored
         experience.
       </p>
-      <div className="flex flex-col md:items-center text-gray-800 items-start justify-between mx-auto py-6 w-full space-y-2">
+      <div className="flex flex-col sm:items-center text-gray-800 items-start justify-between mx-auto py-6 sm:w-full  space-y-2">
         <span className="inline-flex gap-2 md:text-[17px]">
           <PhoneIcon />
           Toll free: <a href="tel:+260778997256">260778997256</a>

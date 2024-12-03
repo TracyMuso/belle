@@ -77,7 +77,7 @@ export const HairStylingData: DetailedServiceCardType[] = [
       },
       {
         price: 'K400',
-        name: 'Premium Keratin with Hair Repair',
+        name: 'Premium Keratin Treatment',
       },
       {
         price: 'K150',

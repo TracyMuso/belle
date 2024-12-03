@@ -22,7 +22,7 @@ const ServiceCard = ({ img, title, text, url, services }: ServiceCardType) => {
           href={url}
           className="rounded-lg w-1/2 md:w-4/5 justify-center lg:w-1/2 bg-brown-400 hover:bg-brown-300 px-3 py-2 inline-flex items-center"
         >
-          View more
+          View menu
           <svg
             className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
             aria-hidden="true"
