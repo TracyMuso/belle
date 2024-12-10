@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLinkData } from '../../constants/HomePage';
 import { Link } from 'react-router-dom';
-import SingleLevelDropdownMenu from './DropdownMenu';
 import MobileNav from './mobileNav';
 
 type LayoutProps = {
@@ -32,7 +31,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   {item.text}
                 </Link>
               ))}
-              <SingleLevelDropdownMenu
+              {/* <SingleLevelDropdownMenu
                 buttonLabel="Services"
                 items={[
                   { title: 'Hair Styling', url: '/hair-styling' },
@@ -42,15 +41,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     url: '#',
                   },
                 ]}
-              />
+              /> */}
             </div>
           </nav>
-          <button
+          <Link
             aria-label="See our recent work on clients"
-            className="hidden md:block border rounded-xl active:bg-pink-700 text-white px-8 py-3 hover:bg-[#bd2d58] bg-pink-600 font-semibold transition-transform duration-300 active:scale-110"
+            className="hidden md:block border rounded-xl active:border-pink-800 text-white px-8 py-3  hover:bg-pink-700 bg-pink-600 font-semibold transition-transform duration-300 active:scale-110"
+            to={'#contact'}
           >
             See our Work!
-          </button>
+          </Link>
           <div className="md:hidden">
             <MobileNav />
           </div>

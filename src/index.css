@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth; /* Smooth scroll for both mobile and desktop */
+}
+
 body {
   background-color: #fbcfe8;
   background-image: linear-gradient(to bottom right, white, #fbcfe8);

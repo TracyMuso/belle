@@ -3,7 +3,10 @@ import { servicesCardData } from '../../constants/HomePage';
 
 const Services = () => {
   return (
-    <section className="xl:px-20 md:px-12 md:py-24 py-16 flex flex-col gap-8 items-center">
+    <section
+      className="xl:px-20 md:px-12 md:py-24 py-16 flex flex-col gap-8 items-center"
+      id="services"
+    >
       <div className="mx-auto pb-6">
         <h2 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-center font-semibold pb-4">
           Our Services

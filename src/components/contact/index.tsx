@@ -2,7 +2,7 @@ import { MapPin, PhoneIcon, MailIcon, WhatsappIcon } from '../icons';
 
 const Contact = () => {
   return (
-    <section className="w-full md:px-20 px-10 py-16 bg-white">
+    <section className="w-full md:px-20 px-10 py-16 bg-white" id="contact">
       <h1 className="xl:text-5xl w-full md:text-4xl sm:text-3xl text-2xl font-semibold text-center py-2">
         Book your appointment
       </h1>
