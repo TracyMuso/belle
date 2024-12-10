@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from './components/layout/header';
+import Header from './components/layout';
 import DetailedServiceCard from './components/cards/DetailedServiceCard';
 import { HairStylingData } from './constants/HairStyling';
 
 const HairStyling = () => {
   return (
     <div className="w-full p-0 m-0">
-      <Header />
       <div className="py-12 flex flex-col items-center gap-12 w-full">
         <h1 className="font-bold sm:text-4xl text-3xl lg:text-5xl">
           HairStyling Menu

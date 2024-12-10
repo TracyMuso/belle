@@ -1,9 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Home from './Home';
 import HairStyling from './HairStyling';
 import Modal from 'react-modal';
+import Layout from './components/layout';
+import NotFound from './components/not-found';
 
 // Set the app element for accessibility
 Modal.setAppElement('#root');
@@ -11,11 +13,13 @@ Modal.setAppElement('#root');
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="hair-styling" element={<HairStyling />} />
-        <Route path="*" element={<div>Not Found</div>} />
-      </Routes>
+      <Layout>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/hair-styling" component={HairStyling} />
+          <Route path="*" render={() => <NotFound />} />
+        </Switch>
+      </Layout>
     </BrowserRouter>
   );
 }

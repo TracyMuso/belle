@@ -6,6 +6,10 @@ import type {
 
 export const NavLinkData: NavLinks[] = [
   {
+    url: '/',
+    text: 'Home',
+  },
+  {
     url: '#about',
     text: 'About',
   },

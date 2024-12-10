@@ -1,5 +1,5 @@
 import './index.css';
-import Header from './components/layout/header';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Testimonials from './components/testimonials';
@@ -11,7 +11,6 @@ function Home() {
   return (
     <>
       <div className="max-w-[1536px]">
-        <Header />
         <Hero />
         <Services />
         <Testimonials />
