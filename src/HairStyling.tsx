@@ -1,5 +1,3 @@
-import React from 'react';
-import Header from './components/layout';
 import DetailedServiceCard from './components/cards/DetailedServiceCard';
 import { HairStylingData } from './constants/HairStyling';
 

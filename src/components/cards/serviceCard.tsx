@@ -2,7 +2,7 @@ import { ServiceCardType } from '../../../types';
 
 const ServiceCard = ({ img, title, text, url, services }: ServiceCardType) => {
   return (
-    <div className="border-gray-500 shadow-md rounded-xl w-[300px] h-auto space-y-4 pb-3 bg-pink-50">
+    <div className="border-gray-500 shadow-md rounded-xl w-[300px] h-auto space-y-4 pb-3 bg-pink-50 transform transition-transform duration-200 hover:scale-105">
       <img
         src={img}
         alt="girl-in-pink-braids"
@@ -20,7 +20,7 @@ const ServiceCard = ({ img, title, text, url, services }: ServiceCardType) => {
         </ul>
         <a
           href={url}
-          className="rounded-lg w-1/2 md:w-4/5 justify-center lg:w-1/2 bg-brown-400 hover:bg-brown-300 px-3 py-2 inline-flex items-center"
+          className="rounded-lg w-1/2 md:w-4/5 justify-center lg:w-1/2 bg-brown-400 hover:text-white hover:bg-brown-500 px-3 py-2 inline-flex items-center"
         >
           View menu
           <svg

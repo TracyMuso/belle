@@ -28,7 +28,7 @@ const ImageGallery = () => {
     setCurrentIndex((currentIndex - 1 + images.length) % images.length);
 
   return (
-    <div className="image-gallery pb-20 pt-10 md:px-16 px-8">
+    <div className="image-gallery pb-20 pt-10 md:px-16 px-8" id="gallery">
       <h1 className="text-center pb-8 text-4xl ">See our recent work</h1>
       <div className="gallery-grid">
         {images.map((img, index) => (

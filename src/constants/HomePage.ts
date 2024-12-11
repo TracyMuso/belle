@@ -10,12 +10,16 @@ export const NavLinkData: NavLinks[] = [
     text: 'Home',
   },
   {
-    url: '#about',
-    text: 'About',
+    url: '/hair-styling',
+    text: 'Hair Styling',
   },
   {
-    url: '#contact',
-    text: 'Contact',
+    url: '#',
+    text: 'Nails',
+  },
+  {
+    url: '#',
+    text: 'Makeup',
   },
 ];
 
