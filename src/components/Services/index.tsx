@@ -13,7 +13,7 @@ const Services = () => {
         </h2>
         <p className="text-center px-6 md:w-full">
           We do hairstyling and treatments, mani-pedis, lash-extensions and brow
-          henna
+          henna.
         </p>
       </div>
       <div className="flex md:flex-row flex-col gap-12 flex-wrap md:flex-nowrap xl:w-11/12 lg:gap-0 w-full items-center justify-between">
