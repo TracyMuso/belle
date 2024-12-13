@@ -47,7 +47,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <Link
             aria-label="See our recent work on clients"
             className="hidden md:block border rounded-xl active:border-pink-800 text-white px-8 py-3  hover:bg-pink-700 bg-pink-600 font-semibold transition-transform duration-300 active:scale-110"
-            to={'#contact'}
+            to={'gallery'}
           >
             See our Work!
           </Link>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gallery-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
+}
+
+.gallery-item {
+  @apply relative;
+}
+
+.gallery-image {
+  @apply w-full h-auto rounded-lg shadow-lg;
+}
+
+.gallery-tag {
+  @apply mt-2 text-center text-sm font-semibold text-gray-800;
+}

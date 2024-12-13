@@ -14,18 +14,18 @@ export const NavLinkData: NavLinks[] = [
     text: 'Hair Styling',
   },
   {
-    url: '#',
+    url: '/nails',
     text: 'Nails',
   },
   {
-    url: '#',
+    url: '/makeup',
     text: 'Makeup',
   },
 ];
 
 export const servicesCardData: ServiceCardType[] = [
   {
-    img: '/assets/images/girl-with-pink-hair.jpeg',
+    img: '/assets/images/hairr.jpeg',
     url: '/hair-styling',
     text: 'We do it all for short hair and long hair',
     title: 'Hair styling',
