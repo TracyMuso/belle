@@ -3,7 +3,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Testimonials from './components/testimonials';
-import ImageGallery from './components/gallery';
+import ImageGallery from './components/gallery/gallery';
 import Contact from './components/contact';
 import Footer from './components/layout/footer';
 

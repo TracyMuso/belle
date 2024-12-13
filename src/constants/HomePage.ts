@@ -14,12 +14,16 @@ export const NavLinkData: NavLinks[] = [
     text: 'Hair Styling',
   },
   {
-    url: '#',
+    url: '/nails',
     text: 'Nails',
   },
   {
-    url: '#',
+    url: '/makeup',
     text: 'Makeup',
+  },
+  {
+    url: '/lashes',
+    text: 'Lashes',
   },
 ];
 

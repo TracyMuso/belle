@@ -5,6 +5,7 @@ import Home from './Home';
 import HairStyling from './HairStyling';
 import Modal from 'react-modal';
 import LashesMenu from './LashesMenu';
+import MakeupMenu from './MakeupMenu';
 import Layout from './components/layout';
 import NotFound from './components/not-found';
 
@@ -18,7 +19,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/hair-styling" component={HairStyling} />
-          <Route path="/lashes-menu" component={LashesMenu} />
+          <Route path="/lashes" component={LashesMenu} />
+          <Route path="/makeup" component={MakeupMenu} />
           <Route path="*" render={() => <NotFound />} />
         </Switch>
       </Layout>
