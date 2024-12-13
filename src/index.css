@@ -113,3 +113,27 @@ li {
   cursor: pointer;
   margin: 0 10px;
 }
+
+.gallery-grid {
+  @apply grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4;
+}
+
+.gallery-item {
+  @apply relative;
+}
+
+.gallery-image {
+  @apply w-full h-auto rounded-lg shadow-lg;
+}
+
+.gallery-tag {
+  @apply mt-2 text-center text-sm font-semibold text-gray-800;
+}
+
+.tag-filter {
+  @apply mb-4;
+}
+
+.tag-filter input {
+  @apply w-full border-gray-300 focus:border-blue-600 focus:ring-blue-600;
+}
