@@ -21,10 +21,6 @@ export const NavLinkData: NavLinks[] = [
     url: '/makeup',
     text: 'Makeup',
   },
-  {
-    url: '/lashes',
-    text: 'Lashes',
-  },
 ];
 
 export const servicesCardData: ServiceCardType[] = [
