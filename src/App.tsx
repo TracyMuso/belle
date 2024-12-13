@@ -4,7 +4,7 @@ import './index.css';
 import Home from './Home';
 import HairStyling from './HairStyling';
 import Modal from 'react-modal';
-import LashesMenu from './constants/LashesMenu';
+import LashesMenu from './LashesMenu';
 import Layout from './components/layout';
 import NotFound from './components/not-found';
 

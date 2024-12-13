@@ -1,6 +1,6 @@
 import React from 'react';
-import DetailedServiceCard from '../components/cards/DetailedServiceCard';
-import { LashesData } from './Lashes';
+import DetailedServiceCard from './components/cards/DetailedServiceCard';
+import { LashesData } from './constants/Lashes';
 
 const LashesMenu = () => {
   return (
